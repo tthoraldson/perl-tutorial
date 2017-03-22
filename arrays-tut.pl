@@ -4,7 +4,7 @@ use LWP::Simple;
 
 $| = 1;
 
-main {
+sub main {
   my @files = ("index.html", "test.html");
 
   foreach my $file(@files){
