@@ -4,10 +4,15 @@ $| = 1;
 
 sub main {
   print("NODE.JS / EXPRESS SKELETON // BY THERESA THORALDSON")
-  print("Would you like to create your node.js/express project in your current directory?  ");
-  chomp(my $age = <>);
+  print("Would you like to create your node.js/express project in your current directory? (y/n) ");
+  chomp(my $temp = <>);
+  if ($temp == "y") {
 
-  print("You are $age years old!\n");
+  } if ($temp == "n"){
+    die "Y"
+  } else {
+
+  }
 }
 
 main();
